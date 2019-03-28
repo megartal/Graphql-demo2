@@ -1,0 +1,15 @@
+
+scalar Date
+
+type Link {
+    id: ID! @unique
+    createdAt: Date!
+    description: String!
+    url: String!
+    postedBy: User
+    votes: [Vote!]!
+}
+
+extend type Query{
+
+}

@@ -1,0 +1,12 @@
+type Feed{
+    count: Long!
+    links: [Link!]!
+}
+
+type Query{
+    feed: Feed!
+}
+
+type Mutation{
+
+}

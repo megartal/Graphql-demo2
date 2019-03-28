@@ -1,0 +1,9 @@
+type Vote {
+    id: ID! @unique
+    link: Link!
+    user: User!
+}
+
+extend type Query{
+
+}
