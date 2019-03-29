@@ -3,6 +3,16 @@ type Feed{
     links: [Link!]!
 }
 
+schema{
+    query: Query
+    subscription: Subscription
+}
+
+type Subscription {
+    newLink: Long!
+    #    newVote: Vote!
+}
+
 type Query{
     feed: Feed!
 }
