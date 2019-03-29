@@ -1,10 +1,9 @@
-package au.com.brolly.graphqldemo.model;
+package au.com.brolly.graphqldemo.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.jws.soap.SOAPBinding;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;

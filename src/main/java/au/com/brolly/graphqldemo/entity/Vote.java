@@ -1,4 +1,4 @@
-package au.com.brolly.graphqldemo.model;
+package au.com.brolly.graphqldemo.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

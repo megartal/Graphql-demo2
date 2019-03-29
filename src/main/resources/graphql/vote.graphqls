@@ -7,3 +7,7 @@ type Vote {
 extend type Query{
 
 }
+
+extend type Mutation{
+    vote(linkId: Long): Vote!
+}

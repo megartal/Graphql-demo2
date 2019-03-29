@@ -1,8 +1,8 @@
 package au.com.brolly.graphqldemo.bootstrap;
 
-import au.com.brolly.graphqldemo.model.Link;
-import au.com.brolly.graphqldemo.model.User;
-import au.com.brolly.graphqldemo.model.Vote;
+import au.com.brolly.graphqldemo.entity.Link;
+import au.com.brolly.graphqldemo.entity.User;
+import au.com.brolly.graphqldemo.entity.Vote;
 import au.com.brolly.graphqldemo.repository.LinkRepository;
 import au.com.brolly.graphqldemo.repository.UserRepository;
 import au.com.brolly.graphqldemo.repository.VoteRepository;

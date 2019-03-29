@@ -1,6 +1,7 @@
 package au.com.brolly.graphqldemo.model;
 
 
+import au.com.brolly.graphqldemo.entity.Link;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

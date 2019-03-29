@@ -7,14 +7,9 @@ type User {
     votes: [Vote!]!
 }
 
-type SigninPayload {
-    token: String
-    user: User
-}
-
-input AuthData {
-    username: String!
+type Auth{
     token: String!
+    user: User!
 }
 
 extend type Query{
@@ -22,5 +17,7 @@ extend type Query{
 }
 
 extend type Mutation{
-    signup(auth: AuthData): SigninPayload
+    signup(email: String!, password: String!, name: String!): Auth
+
+    login(email: String!, password: String!): Auth
 }

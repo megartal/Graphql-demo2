@@ -13,3 +13,7 @@ type Link {
 extend type Query{
 
 }
+
+extend type Mutation{
+    post(url: String!, description: String!): Link!
+}

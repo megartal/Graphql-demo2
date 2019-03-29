@@ -1,4 +1,4 @@
-package au.com.brolly.graphqldemo.model;
+package au.com.brolly.graphqldemo.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -24,7 +24,7 @@ public class User {
     @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
     private List<Vote> votes;
 
-    public User(String name, String email, String password) {
+    public User(String email, String password, String name) {
         this.name = name;
         this.email = email;
         this.password = password;

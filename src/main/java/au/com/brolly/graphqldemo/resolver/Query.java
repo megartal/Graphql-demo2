@@ -1,8 +1,8 @@
 package au.com.brolly.graphqldemo.resolver;
 
+import au.com.brolly.graphqldemo.entity.Link;
+import au.com.brolly.graphqldemo.entity.User;
 import au.com.brolly.graphqldemo.model.Feed;
-import au.com.brolly.graphqldemo.model.Link;
-import au.com.brolly.graphqldemo.model.User;
 import au.com.brolly.graphqldemo.repository.LinkRepository;
 import au.com.brolly.graphqldemo.repository.UserRepository;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
