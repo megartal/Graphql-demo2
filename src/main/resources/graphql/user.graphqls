@@ -13,7 +13,7 @@ type Auth{
 }
 
 extend type Query{
-    findAllUsers: [User!]!
+    getUsers: [User!]!
 }
 
 extend type Mutation{
