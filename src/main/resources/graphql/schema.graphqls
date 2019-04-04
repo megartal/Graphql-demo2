@@ -9,9 +9,20 @@ schema{
 }
 
 type Subscription {
-    newLink: Long!
-    #    newVote: Vote!
+    newLink: Link!
+    newVote: Vote!
 }
+
+#type Subscription {
+#    stockQuotes(stockCodes:[String]) : StockPriceUpdate!
+#}
+
+#type StockPriceUpdate {
+#    dateTime : String
+#    stockCode : String
+#    stockPrice : Float
+#    stockPriceChange : Float
+#}
 
 type Query{
     feed: Feed!
